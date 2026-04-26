@@ -30,7 +30,7 @@ Python isn’t just another tool, but it’s a Swiss Army knife for analysts. He
 
 ## 3. Python & Pandas for BI: The Practical Cheat Sheet
 
-You don’t need a CS degree! This is your consolidated, quick-start reference for the most essential Python _and_ Pandas operations you’ll use daily as a BI analyst, featuring real code and comments. Scan here for most tasks, from variables to repeatable analytics.
+You don’t need a CS degree! This is your consolidated, quick-start reference for the most essential Python *and* Pandas operations you’ll use daily as a BI analyst, featuring real code and comments. Scan here for most tasks, from variables to repeatable analytics.
 
 ```python
 # --- 1. CORE PYTHON BASICS ---

@@ -109,7 +109,7 @@ This table is intentionally simplified. In real teams, roles overlap a lot. But 
 | **Time horizon**     | Present / recent past         | Future / deeper patterns | Continuous                          |
 | **Audience**         | Business users                | Product / research       | Engineers                           |
 
-### Role overlap 
+### Role overlap
 
 In smaller companies, one person often does everything: data ingestion, modeling, dashboards, maybe even some forecasting. The title might just be “data analyst,” but the real job is: *whatever keeps the business from flying blind.*
 

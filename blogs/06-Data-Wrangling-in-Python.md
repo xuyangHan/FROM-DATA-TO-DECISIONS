@@ -79,9 +79,9 @@ Missing values are unavoidable. What matters is how you handle them.
 
 A missing value doesn’t mean “0”, but it could mean:
 
-- unknown
-- not applicable
-- not recorded
+* unknown
+* not applicable
+* not recorded
 
 Treating them as zeros without thinking can distort your metrics.
 
@@ -89,13 +89,16 @@ Treating them as zeros without thinking can distort your metrics.
 
 Two common approaches:
 
-**Drop rows**
+#### Drop rows
+
 ``` python
 df = df.dropna(subset=['Revenue'])
 ```
+
 Use this when missing data is rare and not critical.
 
-**Fill values**
+#### Fill values
+
 ``` python
 df['Revenue'] = df['Revenue'].fillna(0)
 
