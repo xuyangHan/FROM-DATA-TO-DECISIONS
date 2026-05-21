@@ -22,15 +22,6 @@ Cheat sheets mapped 1:1 to [outline.md](../outline.md). **PySpark-first**; SQL s
 | **Lakeflow Spark Declarative Pipelines** | Formerly Delta Live Tables (DLT) — declarative ETL |
 | **Automation Bundle** | Formerly Databricks Asset Bundles (DAB) — `databricks.yml` CI/CD |
 
-## Recommended study order
-
-1. [02-ingestion/2.6-ingestion-decision-matrix.md](02-ingestion/2.6-ingestion-decision-matrix.md) — unlocks “pick the right tool” questions
-2. [01-platform/1.2-compute-services.md](01-platform/1.2-compute-services.md)
-3. [03-transformation/](03-transformation/) — 3.2–3.5 (joins, tuning)
-4. [04-jobs/](04-jobs/)
-5. Remaining ingestion + transformation (3.6–3.7)
-6. [05-cicd/](05-cicd/) → [06-troubleshooting/](06-troubleshooting/) → [07-governance/](07-governance/)
-
 ## Domain map
 
 ### Domain 1 — Databricks Intelligence Platform
