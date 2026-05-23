@@ -173,7 +173,7 @@ Full Associate index: [Databricks DE Associate README](DE/Databricks%20DE%20Asso
 
 ### Databricks Certified Data Engineer Professional
 
-Study notes for the Databricks Certified Data Engineer Professional exam. Cheat sheets map 1:1 to the [exam outline](DE/Databricks%20DE%20Professional/outline.md). Notes are **PySpark-first**, with SQL snippets labeled where the exam favors SQL. Professional content builds on the Associate track and emphasizes production tradeoffs: reliability, cost, performance, governance, observability, and deployment.
+Study notes for the Databricks Certified Data Engineer Professional exam. Cheat sheets map 1:1 to the [Professional domain map](DE/Databricks%20DE%20Professional/README.md#domain-map). Notes are **PySpark-first**, with SQL snippets labeled where the exam favors SQL. Professional content builds on the Associate track and emphasizes production tradeoffs: reliability, cost, performance, governance, observability, and deployment.
 
 #### Exam Snapshot
 
@@ -204,69 +204,69 @@ Study notes for the Databricks Certified Data Engineer Professional exam. Cheat 
 
 | Subdomain | File |
 |-----------|------|
-| 1.1 Using Python and tools for development | [1.1-python-tools-development.md](DE/Databricks%20DE%20Professional/01-code/1.1-python-tools-development.md) |
-| 1.2 Building and testing ETL with Lakeflow SDP, SQL, and Spark | [1.2-building-testing-etl.md](DE/Databricks%20DE%20Professional/01-code/1.2-building-testing-etl.md) |
+| 1.1 Using Python and tools for development | [1.1-python-tools-development.md](DE/Databricks%20DE%20Professional/1.1-python-tools-development.md) |
+| 1.2 Building and testing ETL with Lakeflow SDP, SQL, and Spark | [1.2-building-testing-etl.md](DE/Databricks%20DE%20Professional/1.2-building-testing-etl.md) |
 
 ##### Domain 2 - Data Ingestion and Acquisition
 
 | Subdomain | File |
 |-----------|------|
-| 2.1 Data ingestion and acquisition | [2.1-data-ingestion-acquisition.md](DE/Databricks%20DE%20Professional/02-ingestion/2.1-data-ingestion-acquisition.md) |
+| 2.1 Data ingestion and acquisition | [2.1-data-ingestion-acquisition.md](DE/Databricks%20DE%20Professional/2.1-data-ingestion-acquisition.md) |
 
 ##### Domain 3 - Data Transformation, Cleansing, and Quality
 
 | Subdomain | File |
 |-----------|------|
-| 3.1 Transformation, cleansing, and quality | [3.1-transformation-cleansing-quality.md](DE/Databricks%20DE%20Professional/03-transformation-quality/3.1-transformation-cleansing-quality.md) |
+| 3.1 Transformation, cleansing, and quality | [3.1-transformation-cleansing-quality.md](DE/Databricks%20DE%20Professional/3.1-transformation-cleansing-quality.md) |
 
 ##### Domain 4 - Data Sharing and Federation
 
 | Subdomain | File |
 |-----------|------|
-| 4.1 Data sharing and federation | [4.1-data-sharing-federation.md](DE/Databricks%20DE%20Professional/04-sharing-federation/4.1-data-sharing-federation.md) |
+| 4.1 Data sharing and federation | [4.1-data-sharing-federation.md](DE/Databricks%20DE%20Professional/4.1-data-sharing-federation.md) |
 
 ##### Domain 5 - Monitoring and Alerting
 
 | Subdomain | File |
 |-----------|------|
-| 5.1 Monitoring | [5.1-monitoring.md](DE/Databricks%20DE%20Professional/05-monitoring-alerting/5.1-monitoring.md) |
-| 5.2 Alerting | [5.2-alerting.md](DE/Databricks%20DE%20Professional/05-monitoring-alerting/5.2-alerting.md) |
+| 5.1 Monitoring | [5.1-monitoring.md](DE/Databricks%20DE%20Professional/5.1-monitoring.md) |
+| 5.2 Alerting | [5.2-alerting.md](DE/Databricks%20DE%20Professional/5.2-alerting.md) |
 
 ##### Domain 6 - Cost and Performance Optimisation
 
 | Subdomain | File |
 |-----------|------|
-| 6.1 Cost and performance optimisation | [6.1-cost-performance-optimisation.md](DE/Databricks%20DE%20Professional/06-cost-performance/6.1-cost-performance-optimisation.md) |
+| 6.1 Cost and performance optimisation | [6.1-cost-performance-optimisation.md](DE/Databricks%20DE%20Professional/6.1-cost-performance-optimisation.md) |
 
 ##### Domain 7 - Ensuring Data Security and Compliance
 
 | Subdomain | File |
 |-----------|------|
-| 7.1 Data security mechanisms | [7.1-data-security-mechanisms.md](DE/Databricks%20DE%20Professional/07-security-compliance/7.1-data-security-mechanisms.md) |
-| 7.2 Ensuring compliance | [7.2-ensuring-compliance.md](DE/Databricks%20DE%20Professional/07-security-compliance/7.2-ensuring-compliance.md) |
+| 7.1 Data security mechanisms | [7.1-data-security-mechanisms.md](DE/Databricks%20DE%20Professional/7.1-data-security-mechanisms.md) |
+| 7.2 Ensuring compliance | [7.2-ensuring-compliance.md](DE/Databricks%20DE%20Professional/7.2-ensuring-compliance.md) |
 
 ##### Domain 8 - Data Governance
 
 | Subdomain | File |
 |-----------|------|
-| 8.1 Data governance | [8.1-data-governance.md](DE/Databricks%20DE%20Professional/08-governance/8.1-data-governance.md) |
+| 8.1 Data governance | [8.1-data-governance.md](DE/Databricks%20DE%20Professional/8.1-data-governance.md) |
 
 ##### Domain 9 - Debugging and Deploying
 
 | Subdomain | File |
 |-----------|------|
-| 9.1 Debugging and troubleshooting | [9.1-debugging-troubleshooting.md](DE/Databricks%20DE%20Professional/09-debugging-deploying/9.1-debugging-troubleshooting.md) |
-| 9.2 Deploying CI/CD | [9.2-deploying-cicd.md](DE/Databricks%20DE%20Professional/09-debugging-deploying/9.2-deploying-cicd.md) |
+| 9.1 Debugging and troubleshooting | [9.1-debugging-troubleshooting.md](DE/Databricks%20DE%20Professional/9.1-debugging-troubleshooting.md) |
+| 9.2 Deploying CI/CD | [9.2-deploying-cicd.md](DE/Databricks%20DE%20Professional/9.2-deploying-cicd.md) |
 
 ##### Domain 10 - Data Modelling
 
 | Subdomain | File |
 |-----------|------|
-| 10.1 Data modelling | [10.1-data-modelling.md](DE/Databricks%20DE%20Professional/10-data-modelling/10.1-data-modelling.md) |
+| 10.1 Data modelling | [10.1-data-modelling.md](DE/Databricks%20DE%20Professional/10.1-data-modelling.md) |
 
 #### Practice
 
-Practice scenario questions are planned for a future phase. See [Professional README](DE/Databricks%20DE%20Professional/README.md) for conventions and the note template ([_template.md](DE/Databricks%20DE%20Professional/_template.md)).
+Practice scenario questions are planned for a future phase. See [Professional README](DE/Databricks%20DE%20Professional/README.md) for conventions.
 
 **Suggested study path:** Complete the Associate notes first, then work through Professional domains 1-3, 6, and 10, then 4-5 and 7-9.
 
