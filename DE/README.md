@@ -64,24 +64,171 @@ reusable decision framework.
 
 ### Databricks Certified Data Engineer Associate
 
-[Databricks DE Associate](Databricks%20DE%20Associate/) contains PySpark-first
-study notes and practice material mapped to the Associate exam domains. Topics
-include the Databricks platform, ingestion, transformation, Lakeflow Jobs,
-CI/CD, troubleshooting, optimization, governance, and security.
+PySpark-first study notes and practice material mapped to the Associate exam
+domains. SQL snippets are labelled where the exam favors SQL. This is the best
+starting point for readers new to Databricks or preparing for the Associate
+certification.
 
-This is the best starting point for readers new to Databricks or preparing for
-the Associate certification.
+#### Exam Snapshot
+
+| Item | Detail |
+|------|--------|
+| Questions | 45 scored, multiple choice |
+| Time | 90 minutes |
+| Delivery | Online proctored or test center |
+| Code on exam | SQL when possible; otherwise Python |
+| Validity | 2 years |
+| Guide | [May 2026 exam guide](https://www.databricks.com/sites/default/files/2026-05/databricks-certified-data-engineer-associate-exam-guide-may-2026.pdf) |
+
+#### Lakeflow Naming Glossary
+
+| Term | Meaning |
+|------|---------|
+| Lakeflow Jobs | Orchestration: multi-task DAGs, schedules, and triggers |
+| Lakeflow Connect | Managed and standard connectors for enterprise sources |
+| Lakeflow Spark Declarative Pipelines | Formerly Delta Live Tables (DLT): declarative ETL |
+| Automation Bundle | Formerly Databricks Asset Bundles (DAB): `databricks.yml` CI/CD |
+
+#### Domain Map
+
+##### Domain 1 - Databricks Intelligence Platform
+
+| Subdomain | File |
+|-----------|------|
+| 1.1 Core components, Delta Lake, Unity Catalog | [1.1-core-components.md](Databricks%20DE%20Associate/01-platform/1.1-core-components.md) |
+| 1.2 Compute services and cost | [1.2-compute-services.md](Databricks%20DE%20Associate/01-platform/1.2-compute-services.md) |
+
+##### Domain 2 - Data Ingestion and Loading
+
+| Subdomain | File |
+|-----------|------|
+| 2.1 Ingestion patterns: batch, streaming, incremental | [2.1-ingestion-patterns.md](Databricks%20DE%20Associate/02-ingestion/2.1-ingestion-patterns.md) |
+| 2.2 COPY INTO | [2.2-copy-into.md](Databricks%20DE%20Associate/02-ingestion/2.2-copy-into.md) |
+| 2.3 Auto Loader | [2.3-auto-loader.md](Databricks%20DE%20Associate/02-ingestion/2.3-auto-loader.md) |
+| 2.4 Lakeflow Connect | [2.4-lakeflow-connect.md](Databricks%20DE%20Associate/02-ingestion/2.4-lakeflow-connect.md) |
+| 2.5 JDBC, ODBC, REST, and Jobs | [2.5-jdbc-rest-jobs.md](Databricks%20DE%20Associate/02-ingestion/2.5-jdbc-rest-jobs.md) |
+| 2.6 Ingestion method prioritization | [2.6-ingestion-decision-matrix.md](Databricks%20DE%20Associate/02-ingestion/2.6-ingestion-decision-matrix.md) |
+| 2.7 Semi-structured and unstructured data | [2.7-semi-structured-data.md](Databricks%20DE%20Associate/02-ingestion/2.7-semi-structured-data.md) |
+
+##### Domain 3 - Data Transformation and Modeling
+
+| Subdomain | File |
+|-----------|------|
+| 3.1 Bronze to Silver cleaning | [3.1-bronze-to-silver.md](Databricks%20DE%20Associate/03-transformation/3.1-bronze-to-silver.md) |
+| 3.2 Joins and unions | [3.2-joins-unions.md](Databricks%20DE%20Associate/03-transformation/3.2-joins-unions.md) |
+| 3.3 Column and row manipulation | [3.3-column-row-ops.md](Databricks%20DE%20Associate/03-transformation/3.3-column-row-ops.md) |
+| 3.4 Deduplication and aggregates | [3.4-dedup-aggregates.md](Databricks%20DE%20Associate/03-transformation/3.4-dedup-aggregates.md) |
+| 3.5 Spark tuning | [3.5-spark-tuning.md](Databricks%20DE%20Associate/03-transformation/3.5-spark-tuning.md) |
+| 3.6 Gold layer objects | [3.6-gold-layer-objects.md](Databricks%20DE%20Associate/03-transformation/3.6-gold-layer-objects.md) |
+| 3.7 Data quality | [3.7-data-quality.md](Databricks%20DE%20Associate/03-transformation/3.7-data-quality.md) |
+
+##### Domain 4 - Lakeflow Jobs
+
+| Subdomain | File |
+|-----------|------|
+| 4.1 Control flow: retries and branching | [4.1-control-flow.md](Databricks%20DE%20Associate/04-jobs/4.1-control-flow.md) |
+| 4.2 Task types and DAGs | [4.2-tasks-dependencies.md](Databricks%20DE%20Associate/04-jobs/4.2-tasks-dependencies.md) |
+| 4.3 Trigger types | [4.3-triggers.md](Databricks%20DE%20Associate/04-jobs/4.3-triggers.md) |
+| 4.4 Time vs data-driven triggers | [4.4-trigger-selection.md](Databricks%20DE%20Associate/04-jobs/4.4-trigger-selection.md) |
+
+##### Domain 5 - CI/CD
+
+| Subdomain | File |
+|-----------|------|
+| 5.1 Repos and Git in workspace | [5.1-repos-git.md](Databricks%20DE%20Associate/05-cicd/5.1-repos-git.md) |
+| 5.2 Bundle variables and overrides | [5.2-bundle-variables.md](Databricks%20DE%20Associate/05-cicd/5.2-bundle-variables.md) |
+| 5.3 Bundle deploy and promotion | [5.3-bundle-deploy.md](Databricks%20DE%20Associate/05-cicd/5.3-bundle-deploy.md) |
+| 5.4 Databricks CLI | [5.4-databricks-cli.md](Databricks%20DE%20Associate/05-cicd/5.4-databricks-cli.md) |
+
+##### Domain 6 - Troubleshooting, Monitoring, Optimization
+
+| Subdomain | File |
+|-----------|------|
+| 6.1 Job run history trends | [6.1-job-run-history.md](Databricks%20DE%20Associate/06-troubleshooting/6.1-job-run-history.md) |
+| 6.2 Jobs UI health monitoring | [6.2-jobs-ui-monitoring.md](Databricks%20DE%20Associate/06-troubleshooting/6.2-jobs-ui-monitoring.md) |
+| 6.3 Spark UI bottlenecks | [6.3-spark-ui-bottlenecks.md](Databricks%20DE%20Associate/06-troubleshooting/6.3-spark-ui-bottlenecks.md) |
+| 6.4 Liquid clustering and predictive optimization | [6.4-liquid-clustering.md](Databricks%20DE%20Associate/06-troubleshooting/6.4-liquid-clustering.md) |
+| 6.5 Cluster failures and OOM | [6.5-cluster-diagnostics.md](Databricks%20DE%20Associate/06-troubleshooting/6.5-cluster-diagnostics.md) |
+
+##### Domain 7 - Governance and Security
+
+| Subdomain | File |
+|-----------|------|
+| 7.1 Managed vs external tables | [7.1-managed-external-tables.md](Databricks%20DE%20Associate/07-governance/7.1-managed-external-tables.md) |
+| 7.2 GRANT, REVOKE, and DENY | [7.2-access-controls.md](Databricks%20DE%20Associate/07-governance/7.2-access-controls.md) |
+| 7.3 Column masks and row filters | [7.3-masking-rls.md](Databricks%20DE%20Associate/07-governance/7.3-masking-rls.md) |
+| 7.4 ABAC policies | [7.4-abac-policies.md](Databricks%20DE%20Associate/07-governance/7.4-abac-policies.md) |
+
+#### Practice
+
+- [Platform practice](Databricks%20DE%20Associate/practice/01-platform.md)
+- [Ingestion practice](Databricks%20DE%20Associate/practice/02-ingestion.md)
+- [Transformation practice](Databricks%20DE%20Associate/practice/03-transformation.md)
+- [Jobs practice](Databricks%20DE%20Associate/practice/04-jobs.md)
+- [CI/CD practice](Databricks%20DE%20Associate/practice/05-cicd.md)
+- [Troubleshooting practice](Databricks%20DE%20Associate/practice/06-troubleshooting.md)
+- [Governance practice](Databricks%20DE%20Associate/practice/07-governance.md)
+
+#### Conventions
+
+- One file represents one exam subdomain.
+- Use `catalog.schema.table` for governed Unity Catalog reads and writes.
+- Medallion architecture is introduced in domains 2.1 and 3.1.
 
 ### Databricks Certified Data Engineer Professional
 
-[Databricks DE Professional](Databricks%20DE%20Professional/) contains
-PySpark-first study notes mapped to the Professional exam domains. It builds on
-the Associate material and emphasizes production tradeoffs involving
+PySpark-first study notes mapped to the Professional exam domains. This series
+builds on the Associate material and emphasizes production tradeoffs involving
 reliability, cost, performance, governance, observability, and deployment.
 
 Complete the Associate notes first, then work through the Professional domains
 on development, ingestion, transformation, cost and performance, and data
 modelling before the remaining domains.
+
+#### Exam Snapshot
+
+| Item | Detail |
+|------|--------|
+| Questions | 59 scored, multiple choice |
+| Time | 120 minutes |
+| Delivery | Online proctored or test center |
+| Code on exam | SQL and Python |
+| Test aides | None, including API documentation |
+| Validity | 2 years |
+| Guide | [November 30, 2025 exam guide](https://www.databricks.com/sites/default/files/2025-11/databricks-certified-data-engineer-professional-exam-guide-november-30-2025_0.pdf) |
+
+#### Lakeflow Naming Glossary
+
+| Term | Meaning |
+|------|---------|
+| Lakeflow Jobs | Orchestration: multi-task DAGs, schedules, triggers, and notifications |
+| Lakeflow Connect | Managed and standard connectors for enterprise sources |
+| Lakeflow Spark Declarative Pipelines | Formerly Delta Live Tables (DLT): declarative ETL |
+| Databricks Asset Bundles (DAB) | `databricks.yml` CI/CD packaging and deployment |
+| Delta Sharing | Secure live data sharing across Databricks and external platforms |
+| Lakehouse Federation | Governed querying across supported external source systems |
+
+#### Domain Map
+
+| Domain | Topic | Files |
+|--------|-------|-------|
+| 1 | Developing code with Python and SQL | [Python tools](Databricks%20DE%20Professional/1.1-python-tools-development.md), [building and testing ETL](Databricks%20DE%20Professional/1.2-building-testing-etl.md) |
+| 2 | Data ingestion and acquisition | [Data ingestion and acquisition](Databricks%20DE%20Professional/2.1-data-ingestion-acquisition.md) |
+| 3 | Data transformation, cleansing, and quality | [Transformation, cleansing, and quality](Databricks%20DE%20Professional/3.1-transformation-cleansing-quality.md) |
+| 4 | Data sharing and federation | [Data sharing and federation](Databricks%20DE%20Professional/4.1-data-sharing-federation.md) |
+| 5 | Monitoring and alerting | [Monitoring](Databricks%20DE%20Professional/5.1-monitoring.md), [alerting](Databricks%20DE%20Professional/5.2-alerting.md) |
+| 6 | Cost and performance optimisation | [Cost and performance optimisation](Databricks%20DE%20Professional/6.1-cost-performance-optimisation.md) |
+| 7 | Data security and compliance | [Data security mechanisms](Databricks%20DE%20Professional/7.1-data-security-mechanisms.md), [ensuring compliance](Databricks%20DE%20Professional/7.2-ensuring-compliance.md) |
+| 8 | Data governance | [Data governance](Databricks%20DE%20Professional/8.1-data-governance.md) |
+| 9 | Debugging and deploying | [Debugging and troubleshooting](Databricks%20DE%20Professional/9.1-debugging-troubleshooting.md), [deploying CI/CD](Databricks%20DE%20Professional/9.2-deploying-cicd.md) |
+| 10 | Data modelling | [Data modelling](Databricks%20DE%20Professional/10.1-data-modelling.md) |
+
+#### Conventions
+
+- One file represents one official exam subdomain.
+- Use `catalog.schema.table` for governed Unity Catalog reads and writes.
+- Treat Medallion architecture as assumed knowledge and refer to the Associate notes where needed.
+- Emphasize production tradeoffs: reliability, cost, performance, governance, observability, and deployment.
 
 ## How the Series Fit Together
 
