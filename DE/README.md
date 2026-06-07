@@ -67,6 +67,16 @@ reusable decision framework.
 | Article | Practical question |
 |---------|--------------------|
 | [Why CI/CD Feels Different in Data Engineering](industry-experience/01-CICD-in-DE.md) | How can ADF and Terraform changes be tested and promoted without making production the first real test? |
+| [Why Can My Laptop Connect but the Pipeline Cannot?](industry-experience/02-laptop-connects-pipeline-cannot.md) | How do you diagnose the real network path and request only the firewall access a production runtime needs? |
+| [The Private Endpoint Exists, So Why Does Connectivity Still Fail?](industry-experience/03-private-endpoint-connectivity.md) | Why do private endpoints still fail when DNS, routing, or endpoint approval is wrong? |
+| [Why Does ADF Need a Machine in the Middle?](industry-experience/04-adf-machine-in-the-middle.md) | Which component moves data into private networks, and how should SHIR be operated? |
+| [The SFTP Feed Broke After Key Rotation](industry-experience/05-sftp-key-rotation.md) | How do SSH identity, encryption, compatibility, and safe key rotation fit together? |
+| [Encryption Worked, but Trust Failed](industry-experience/06-tls-trust-failed.md) | Why can an encrypted TLS connection still fail certificate validation or client authentication? |
+| [Why Should Nobody Know the Production Password?](industry-experience/07-passwordless-production-access.md) | How can workloads access production systems without spreading long-lived credentials? |
+| [Yesterday's Data Was Loaded Twice](industry-experience/08-yesterdays-data-loaded-twice.md) | How do idempotency, control state, and atomic publication make retries safe? |
+| [The Daily Full Load No Longer Finishes Before Morning](industry-experience/09-full-load-no-longer-finishes.md) | When should a pipeline move from full loads to watermarks, CDC, or streaming? |
+| [The Raw File Arrived, but Is It Ready for Analytics?](industry-experience/10-raw-file-ready-for-analytics.md) | How should raw inputs, schema changes, formats, and curated data layers be managed? |
+| [The Pipeline Is Slow Only During Peak Hours](industry-experience/11-peak-hour-pipeline-performance.md) | How do you isolate a production bottleneck before adding more compute or concurrency? |
 
 ## Databricks Series
 
