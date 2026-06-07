@@ -35,6 +35,10 @@ Articles will be listed here in recommended reading order. Each article should
 explain why the topic matters, introduce the core concepts, show a practical
 example, identify common mistakes, and point toward the next topic.
 
+| Article | What you will learn |
+|---------|---------------------|
+| [What Is Data Engineering?](fundamentals-to-advanced/00-what-is-DE.md) | What data engineering is, why it is needed, and how data moves from its source to its users |
+
 ### Industry Experience
 
 Industry Experience is a problem-driven series about the gap between data
@@ -59,6 +63,10 @@ Articles will be listed here as standalone cases and can later be grouped into
 themes such as reliability, performance, data quality, or team practices. Each
 article should compare viable approaches and finish with practical lessons or a
 reusable decision framework.
+
+| Article | Practical question |
+|---------|--------------------|
+| [Why CI/CD Feels Different in Data Engineering](industry-experience/01-CICD-in-DE.md) | How can ADF and Terraform changes be tested and promoted without making production the first real test? |
 
 ## Databricks Series
 
